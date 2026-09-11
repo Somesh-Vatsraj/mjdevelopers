@@ -1,0 +1,19 @@
+name = "maajivach-app"
+main = "worker/src/index.js"
+compatibility_date = "2024-11-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Static assets (React build output)
+[assets]
+directory = "./dist"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+
+# D1 Database
+[[d1_databases]]
+binding = "DB"
+database_name = "maajivach-db"
+database_id = "cbd7f7f4-f1ad-4366-9b67-368dbf28f41a"  # अपना ID डालें
+
+[vars]
+ADMIN_TOKEN = "12345"
