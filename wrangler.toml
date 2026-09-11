@@ -12,8 +12,8 @@ not_found_handling = "single-page-application"
 # D1 Database
 [[d1_databases]]
 binding = "DB"
-database_name = "maajivach-db"
-database_id = "cbd7f7f4-f1ad-4366-9b67-368dbf28f41a"  # अपना ID डालें
+database_name = "mjdevelopers-db"
+database_id = "b607628a-b904-44f4-852b-7d5cb86bbeb0"  # अपना ID डालें
 
 [vars]
-ADMIN_TOKEN = "12345"
+ADMIN_TOKEN = "rana-bhaya"
